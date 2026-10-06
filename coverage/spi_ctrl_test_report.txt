@@ -1,0 +1,1853 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /spi_tb_top/dut/u_regfile
+=== Design Unit: work.apb_regfile
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        55        41        14    74.54%
+
+================================Branch Details================================
+
+Branch Coverage for instance /spi_tb_top/dut/u_regfile
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ./golden_rtl/apb_regfile.sv
+------------------------------------IF Branch------------------------------------
+    168                                   160366     Count coming in to IF
+    168             1                      80021     
+                                           80345     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    169                                    80021     Count coming in to CASE
+    170             1                    ***0***     
+    171             1                      80015     
+    172             1                    ***0***     
+    173             1                          6     
+    177             1                    ***0***     
+    178             1                    ***0***     
+    179             1                    ***0***     
+    180             1                    ***0***     
+    181             1                    ***0***     
+    182             1                    ***0***     
+Branch totals: 2 hits of 10 branches = 20.00%
+
+------------------------------------IF Branch------------------------------------
+    174                                        6     Count coming in to IF
+    174             1                          5     
+    174             2                          1     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    196                                      882     Count coming in to IF
+    196             1                          5     
+                                             877     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    198                                        5     Count coming in to CASE
+    199             1                          2     
+    200             1                          2     
+    201             1                          1     
+Branch totals: 3 hits of 3 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    213                                      884     Count coming in to IF
+    213             1                          3     
+    226             1                        881     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    227                                      881     Count coming in to IF
+    227             1                        287     
+                                             594     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    228                                      287     Count coming in to CASE
+    229             1                         10     
+    237             1                          6     
+    238             1                        262     
+    242             1                    ***0***     
+    243             1                    ***0***     
+    244             1                          9     
+Branch totals: 4 hits of 6 branches = 66.66%
+
+------------------------------------IF Branch------------------------------------
+    256                                      881     Count coming in to IF
+    256             1                    ***0***     
+                                             881     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    260                                      881     Count coming in to IF
+    260             1                    ***0***     
+                                             881     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    262                                      881     Count coming in to IF
+    262             1                    ***0***     
+                                             881     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    264                                      881     Count coming in to IF
+    264             1                    ***0***     
+                                             881     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    266                                      881     Count coming in to IF
+    266             1                          1     
+                                             880     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    268                                      881     Count coming in to IF
+    268             1                          1     
+                                             880     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    284                                       16     Count coming in to IF
+    284             1                          2     
+    288             1                          1     
+    291             1                         13     
+Branch totals: 3 hits of 3 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    292                                       13     Count coming in to IF
+    292             1                          5     
+                                               8     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    296                                       13     Count coming in to IF
+    296             1                          1     
+                                              12     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    306                                        8     Count coming in to IF
+    306             1                          2     
+    310             1                          1     
+    313             1                          5     
+Branch totals: 3 hits of 3 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    314                                        5     Count coming in to IF
+    314             1                          1     
+                                               4     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    318                                        5     Count coming in to IF
+    318             1                          1     
+                                               4     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                      14         5         9    35.71%
+
+================================Condition Details================================
+
+Condition Coverage for instance /spi_tb_top/dut/u_regfile --
+
+  File ./golden_rtl/apb_regfile.sv
+----------------Focused Condition View-------------------
+Line       196 Item    1  ((apb_write && (PADDR == 8)) && ctrl_en)
+Condition totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       256 Item    1  (apb_write && (PADDR == 28))
+Condition totals: 0 of 2 input terms covered = 0.00%
+
+     Input Term   Covered  Reason for no coverage   Hint
+    -----------  --------  -----------------------  --------------
+      apb_write         N  '_1' not hit             Hit '_1'
+  (PADDR == 28)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  apb_write_0           -                             
+  Row   2:    ***0***  apb_write_1           (PADDR == 28)                 
+  Row   3:          1  (PADDR == 28)_0       apb_write                     
+  Row   4:    ***0***  (PADDR == 28)_1       apb_write                     
+
+----------------Focused Condition View-------------------
+Line       262 Item    1  (rx_push_valid && rx_full_w)
+Condition totals: 0 of 2 input terms covered = 0.00%
+
+     Input Term   Covered  Reason for no coverage   Hint
+    -----------  --------  -----------------------  --------------
+  rx_push_valid         N  '_1' not hit             Hit '_1'
+      rx_full_w         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  rx_push_valid_0       -                             
+  Row   2:    ***0***  rx_push_valid_1       rx_full_w                     
+  Row   3:          1  rx_full_w_0           rx_push_valid                 
+  Row   4:    ***0***  rx_full_w_1           rx_push_valid                 
+
+----------------Focused Condition View-------------------
+Line       264 Item    1  ((rx_push_valid && ~rx_full_w) && (rx_count == (8 - 1)))
+Condition totals: 0 of 3 input terms covered = 0.00%
+
+             Input Term   Covered  Reason for no coverage   Hint
+            -----------  --------  -----------------------  --------------
+          rx_push_valid         N  '_1' not hit             Hit '_1'
+              rx_full_w         N  No hits                  Hit '_0' and '_1'
+  (rx_count == (8 - 1))         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target               Non-masking condition(s)      
+ ---------  ---------  --------------------     -------------------------     
+  Row   1:          1  rx_push_valid_0          -                             
+  Row   2:    ***0***  rx_push_valid_1          ((rx_count == (8 - 1)) && ~rx_full_w)
+  Row   3:    ***0***  rx_full_w_0              ((rx_count == (8 - 1)) && rx_push_valid)
+  Row   4:    ***0***  rx_full_w_1              rx_push_valid                 
+  Row   5:          1  (rx_count == (8 - 1))_0  (rx_push_valid && ~rx_full_w) 
+  Row   6:    ***0***  (rx_count == (8 - 1))_1  (rx_push_valid && ~rx_full_w) 
+
+----------------Focused Condition View-------------------
+Line       266 Item    1  (tx_pop && (tx_count == 1))
+Condition totals: 1 of 2 input terms covered = 50.00%
+
+       Input Term   Covered  Reason for no coverage   Hint
+      -----------  --------  -----------------------  --------------
+           tx_pop         Y
+  (tx_count == 1)         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  tx_pop_0              -                             
+  Row   2:          1  tx_pop_1              (tx_count == 1)               
+  Row   3:    ***0***  (tx_count == 1)_0     tx_pop                        
+  Row   4:          1  (tx_count == 1)_1     tx_pop                        
+
+----------------Focused Condition View-------------------
+Line       314 Item    1  (rx_push_valid && ~rx_full_w)
+Condition totals: 1 of 2 input terms covered = 50.00%
+
+     Input Term   Covered  Reason for no coverage   Hint
+    -----------  --------  -----------------------  --------------
+  rx_push_valid         Y
+      rx_full_w         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  rx_push_valid_0       -                             
+  Row   2:          1  rx_push_valid_1       ~rx_full_w                    
+  Row   3:          1  rx_full_w_0           rx_push_valid                 
+  Row   4:    ***0***  rx_full_w_1           rx_push_valid                 
+
+
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                     14         8         6    57.14%
+
+================================Expression Details================================
+
+Expression Coverage for instance /spi_tb_top/dut/u_regfile --
+
+  File ./golden_rtl/apb_regfile.sv
+----------------Focused Expression View-----------------
+Line       107 Item    1  (PSEL & PENABLE)
+Expression totals: 1 of 2 input terms covered = 50.00%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+        PSEL         N  '_0' not hit             Hit '_0'
+     PENABLE         Y
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  PSEL_0                PENABLE                       
+  Row   2:          1  PSEL_1                PENABLE                       
+  Row   3:          1  PENABLE_0             PSEL                          
+  Row   4:          1  PENABLE_1             PSEL                          
+
+----------------Focused Expression View-----------------
+Line       108 Item    1  (apb_access & PWRITE)
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       109 Item    1  (apb_access & ~PWRITE)
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       122 Item    1  (tx_count == 8)
+Expression totals: 0 of 1 input term covered = 0.00%
+
+       Input Term   Covered  Reason for no coverage   Hint
+      -----------  --------  -----------------------  --------------
+  (tx_count == 8)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (tx_count == 8)_0     -                             
+  Row   2:    ***0***  (tx_count == 8)_1     -                             
+
+----------------Focused Expression View-----------------
+Line       123 Item    1  (tx_count == 0)
+Expression totals: 1 of 1 input term covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       128 Item    1  (rx_count == 8)
+Expression totals: 0 of 1 input term covered = 0.00%
+
+       Input Term   Covered  Reason for no coverage   Hint
+      -----------  --------  -----------------------  --------------
+  (rx_count == 8)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (rx_count == 8)_0     -                             
+  Row   2:    ***0***  (rx_count == 8)_1     -                             
+
+----------------Focused Expression View-----------------
+Line       129 Item    1  (rx_count == 0)
+Expression totals: 1 of 1 input term covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       206 Item    1  (tx_push_valid & ~tx_full_w)
+Expression totals: 1 of 2 input terms covered = 50.00%
+
+     Input Term   Covered  Reason for no coverage   Hint
+    -----------  --------  -----------------------  --------------
+  tx_push_valid         Y
+      tx_full_w         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  tx_push_valid_0       ~tx_full_w                    
+  Row   2:          1  tx_push_valid_1       ~tx_full_w                    
+  Row   3:          1  tx_full_w_0           tx_push_valid                 
+  Row   4:    ***0***  tx_full_w_1           tx_push_valid                 
+
+----------------Focused Expression View-----------------
+Line       207 Item    1  (tx_push_valid & tx_full_w)
+Expression totals: 0 of 2 input terms covered = 0.00%
+
+     Input Term   Covered  Reason for no coverage   Hint
+    -----------  --------  -----------------------  --------------
+  tx_push_valid         N  No hits                  Hit '_0' and '_1'
+      tx_full_w         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  tx_push_valid_0       tx_full_w                     
+  Row   2:    ***0***  tx_push_valid_1       tx_full_w                     
+  Row   3:          1  tx_full_w_0           tx_push_valid                 
+  Row   4:    ***0***  tx_full_w_1           tx_push_valid                 
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      96        82        14    85.41%
+
+================================Statement Details================================
+
+Statement Coverage for instance /spi_tb_top/dut/u_regfile --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ./golden_rtl/apb_regfile.sv
+    107             1                     240923     
+    108             1                     160903     
+    109             1                     160903     
+    121             1                          8     
+    122             1                          8     
+    123             1                          8     
+    127             1                          4     
+    128             1                          4     
+    129             1                          4     
+    132             1                          8     
+    137             1                         11     
+    148             1                         11     
+    158             1                        261     
+    159             1                          2     
+    160             1                          4     
+    161             1                          5     
+    162             1                          2     
+    165             1                     160366     
+    166             1                     160366     
+    167             1                     160366     
+    170             1                    ***0***     
+    171             1                      80015     
+    172             1                    ***0***     
+    174             1                          6     
+    175             1                          6     
+    177             1                    ***0***     
+    178             1                    ***0***     
+    179             1                    ***0***     
+    180             1                    ***0***     
+    181             1                    ***0***     
+    182             1                    ***0***     
+    193             1                        882     
+    194             1                        882     
+    195             1                        882     
+    197             1                          5     
+    199             1                          2     
+    200             1                          2     
+    201             1                          1     
+    206             1                         13     
+    207             1                         13     
+    212             1                        884     
+    214             1                          3     
+    215             1                          3     
+    216             1                          3     
+    217             1                          3     
+    218             1                          3     
+    219             1                          3     
+    220             1                          3     
+    221             1                          3     
+    222             1                          3     
+    223             1                          3     
+    224             1                          3     
+    225             1                          3     
+    230             1                         10     
+    231             1                         10     
+    232             1                         10     
+    233             1                         10     
+    234             1                         10     
+    235             1                         10     
+    237             1                          6     
+    239             1                        262     
+    240             1                        262     
+    242             1                    ***0***     
+    243             1                    ***0***     
+    254             1                        881     
+    257             1                    ***0***     
+    261             1                    ***0***     
+    263             1                    ***0***     
+    265             1                    ***0***     
+    267             1                          1     
+    269             1                          1     
+    271             1                        881     
+    276             1                          4     
+    277             1                        261     
+    283             1                         16     
+    285             1                          2     
+    286             1                          2     
+    287             1                          2     
+    287             2                         16     
+    287             3                         16     
+    289             1                          1     
+    290             1                          1     
+    293             1                          5     
+    294             1                          5     
+    297             1                          1     
+    305             1                          8     
+    307             1                          2     
+    308             1                          2     
+    309             1                          2     
+    309             2                         16     
+    309             3                         16     
+    311             1                          1     
+    312             1                          1     
+    315             1                          1     
+    316             1                          1     
+    319             1                          1     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                       2800       301      2499    10.75%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /spi_tb_top/dut/u_regfile --
+
+                                              Node      1H->0L      0L->1H       0L->Z       Z->0L       1H->Z       Z->H1     ExtMode  "Coverage"
+                                              ---------------------------------------------------------------------------------------------------
+                                               IRQ           0           0           0           0           0           0           3        0.00 
+                                        PADDR[0-1]           0           0           0           0           0           0           3        0.00 
+                                        PADDR[5-7]           0           0           0           0           0           0           3        0.00 
+                                      PRDATA[31-8]           0           0           0           0           0           0           3        0.00 
+                                         PRDATA[6]           0           0           0           0           0           0           3        0.00 
+                                         PRDATA[3]           0           0           0           0           0           0           3        0.00 
+                                         PRDATA[1]           0           0           0           0           0           0           3        0.00 
+                                            PREADY           0           0           0           0           0           0           3        0.00 
+                                           PRESETn           0           1           0           0           0           0           3       16.66 
+                                           PSLVERR           0           0           0           0           0           0           3        0.00 
+                                        PWDATA[14]           0           0           0           0           0           0           3        0.00 
+                                     PWDATA[18-21]           0           0           0           0           0           0           3        0.00 
+                                        PWDATA[25]           0           0           0           0           0           0           3        0.00 
+                                     PWDATA[27-28]           0           0           0           0           0           0           3        0.00 
+                                        PWDATA[30]           0           0           0           0           0           0           3        0.00 
+                                 cfg_clk_div[8-15]           0           0           0           0           0           0           3        0.00 
+                                    cfg_delay[0-7]           0           0           0           0           0           0           3        0.00 
+                                            cfg_en           0           1           0           0           0           0           3       16.66 
+                                      cfg_loopback           0           1           0           0           0           0           3       16.66 
+                                     cfg_lsb_first           0           1           0           0           0           0           3       16.66 
+                                          cfg_mstr           0           1           0           0           0           0           3       16.66 
+                                     clk_div[15-8]           0           0           0           0           0           0           3        0.00 
+                                clk_div_word[8-31]           0           0           0           0           0           0           3        0.00 
+                                           ctrl_en           0           1           0           0           0           0           3       16.66 
+                                     ctrl_loopback           0           1           0           0           0           0           3       16.66 
+                                    ctrl_lsb_first           0           1           0           0           0           0           3       16.66 
+                                         ctrl_mstr           0           1           0           0           0           0           3       16.66 
+                                    ctrl_word[0-1]           0           1           0           0           0           0           3       16.66 
+                                    ctrl_word[4-5]           0           1           0           0           0           0           3       16.66 
+                                   ctrl_word[8-31]           0           0           0           0           0           0           3        0.00 
+                                    delay_cfg[7-0]           0           0           0           0           0           0           3        0.00 
+                                  delay_word[0-31]           0           0           0           0           0           0           3        0.00 
+                                           i[31-0]           0           0           0           0           0           0           3        0.00 
+                                       int_en[4-0]           0           0           0           0           0           0           3        0.00 
+                                 int_en_word[0-31]           0           0           0           0           0           0           3        0.00 
+                                       int_stat[4]           0           1           0           0           0           0           3       16.66 
+                                     int_stat[3-1]           0           0           0           0           0           0           3        0.00 
+                                       int_stat[0]           0           1           0           0           0           0           3       16.66 
+                                  int_stat_word[0]           0           1           0           0           0           0           3       16.66 
+                                int_stat_word[1-3]           0           0           0           0           0           0           3        0.00 
+                                  int_stat_word[4]           0           1           0           0           0           0           3       16.66 
+                               int_stat_word[5-31]           0           0           0           0           0           0           3        0.00 
+                                     rx_count[1-3]           0           0           0           0           0           0           3        0.00 
+                                         rx_full_w           0           0           0           0           0           0           3        0.00 
+                                   rx_push_data[0]           0           1           0           0           0           0           3       16.66 
+                                   rx_push_data[1]           0           0           0           0           0           0           3        0.00 
+                                   rx_push_data[2]           0           1           0           0           0           0           3       16.66 
+                                 rx_push_data[3-4]           0           0           0           0           0           0           3        0.00 
+                                   rx_push_data[5]           0           1           0           0           0           0           3       16.66 
+                                   rx_push_data[6]           0           0           0           0           0           0           3        0.00 
+                                   rx_push_data[7]           0           1           0           0           0           0           3       16.66 
+                                rx_push_data[8-31]           0           0           0           0           0           0           3        0.00 
+                                        rx_rp[3-1]           0           0           0           0           0           0           3        0.00 
+                                          rx_rp[0]           0           1           0           0           0           0           3       16.66 
+                                        rx_wp[3-1]           0           0           0           0           0           0           3        0.00 
+                                          rx_wp[0]           0           1           0           0           0           0           3       16.66 
+                                ss_ctrl_word[8-31]           0           0           0           0           0           0           3        0.00 
+                                    status_word[1]           0           0           0           0           0           0           3        0.00 
+                                    status_word[3]           0           0           0           0           0           0           3        0.00 
+                                 status_word[5-31]           0           0           0           0           0           0           3        0.00 
+                                       tx_count[2]           0           1           0           0           0           0           3       16.66 
+                                       tx_count[3]           0           0           0           0           0           0           3        0.00 
+                                         tx_full_w           0           0           0           0           0           0           3        0.00 
+                                  tx_push_data[30]           0           0           0           0           0           0           3        0.00 
+                               tx_push_data[28-27]           0           0           0           0           0           0           3        0.00 
+                                  tx_push_data[25]           0           0           0           0           0           0           3        0.00 
+                               tx_push_data[21-18]           0           0           0           0           0           0           3        0.00 
+                                  tx_push_data[14]           0           0           0           0           0           0           3        0.00 
+                                 tx_push_data[4-3]           0           0           0           0           0           0           3        0.00 
+                                   tx_push_dropped           0           0           0           0           0           0           3        0.00 
+                                        tx_rp[3-1]           0           0           0           0           0           0           3        0.00 
+                                          tx_rp[0]           0           1           0           0           0           0           3       16.66 
+                                        tx_word[1]           0           1           0           0           0           0           3       16.66 
+                                      tx_word[3-4]           0           0           0           0           0           0           3        0.00 
+                                        tx_word[6]           0           0           0           0           0           0           3        0.00 
+                                     tx_word[8-31]           0           0           0           0           0           0           3        0.00 
+                                          tx_wp[3]           0           0           0           0           0           0           3        0.00 
+                                          tx_wp[2]           0           1           0           0           0           0           3       16.66 
+
+========
+(n*) - Number was not used in coverage calculations performed by extended toggle algorithms.
+
+Extended Toggle Coverage Calculation Criteria:
+-----------------------------------------------
+	ExtMode 1: 0L->1H & 1H->0L & any one 'Z' transition (to/from 'Z').
+	ExtMode 2: 0L->1H & 1H->0L & one transition to 'Z' & one transition from 'Z'.
+	ExtMode 3: 0L->1H & 1H->0L & all 'Z' transitions.
+========
+
+Total Node Count     =        558 
+Toggled Node Count   =        137 
+Untoggled Node Count =        421 
+
+Toggle Coverage      =      10.75% (301 of 2800 bins)
+
+=================================================================================
+=== Instance: /spi_tb_top/dut/u_core
+=== Design Unit: work.spi_core
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        57        33        24    57.89%
+
+================================Branch Details================================
+
+Branch Coverage for instance /spi_tb_top/dut/u_core
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ./golden_rtl/spi_core.sv
+------------------------------------IF Branch------------------------------------
+    80                                         1     Count coming in to IF
+    80              1                          1     
+    81              1                    ***0***     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    81                                   ***0***     Count coming in to IF
+    81              2                    ***0***     
+    81              3                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    89                                        10     Count coming in to IF
+    89              1                          8     
+    89              2                          2     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    96                                         7     Count coming in to IF
+    96              1                    ***0***     
+    98              1                          7     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    104                                        1     Count coming in to IF
+    104             1                    ***0***     
+    105             1                          1     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    112                                      229     Count coming in to IF
+    112             1                          3     
+    130             1                        226     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    135                                      226     Count coming in to IF
+    135             1                          7     
+    142             1                        219     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    143                                      219     Count coming in to CASE
+    145             1                        187     
+    178             1                         30     
+    224             1                          2     
+    246             1                    ***0***     
+    259             1                    ***0***     
+Branch totals: 3 hits of 5 branches = 60.00%
+
+------------------------------------IF Branch------------------------------------
+    149                                      187     Count coming in to IF
+    149             1                          1     
+                                             186     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    159                                        1     Count coming in to IF
+    159             1                          1     
+    160             1                    ***0***     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    160                                  ***0***     Count coming in to IF
+    160             2                    ***0***     
+    160             3                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    165                                        1     Count coming in to IF
+    165             1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    166                                        1     Count coming in to IF
+    166             1                    ***0***     
+    167             1                          1     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    168                                        1     Count coming in to IF
+    168             1                          1     
+    169             1                    ***0***     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    169                                  ***0***     Count coming in to IF
+    169             2                    ***0***     
+    169             3                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    179                                       30     Count coming in to IF
+    179             1                         15     
+    218             1                         15     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    189                                       15     Count coming in to IF
+    189             1                         15     
+    189             2                    ***0***     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    192                                       15     Count coming in to IF
+    192             1                          8     
+                                               7     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    193                                        8     Count coming in to IF
+    193             1                    ***0***     
+    195             1                          8     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    199                                        8     Count coming in to IF
+    199             1                          1     
+                                               7     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    205                                       15     Count coming in to IF
+    205             1                          7     
+                                               8     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    206                                        7     Count coming in to IF
+    206             1                          7     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    213                                       15     Count coming in to IF
+    213             1                    ***0***     
+                                              15     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    225                                        2     Count coming in to IF
+    225             1                          1     
+    240             1                          1     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    234                                        1     Count coming in to IF
+    234             1                    ***0***     
+    237             1                          1     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    248                                  ***0***     Count coming in to IF
+    248             1                    ***0***     
+    254             1                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    250                                  ***0***     Count coming in to IF
+    250             1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                      19         5        14    26.31%
+
+================================Condition Details================================
+
+Condition Coverage for instance /spi_tb_top/dut/u_core --
+
+  File ./golden_rtl/spi_core.sv
+----------------Focused Condition View-------------------
+Line       80 Item    1  (xfer_width == 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+         Input Term   Covered  Reason for no coverage   Hint
+        -----------  --------  -----------------------  --------------
+  (xfer_width == 0)         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (xfer_width == 0)_0   -                             
+  Row   2:          1  (xfer_width == 0)_1   -                             
+
+----------------Focused Condition View-------------------
+Line       81 Item    1  (xfer_width == 1)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+         Input Term   Covered  Reason for no coverage   Hint
+        -----------  --------  -----------------------  --------------
+  (xfer_width == 1)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (xfer_width == 1)_0   -                             
+  Row   2:    ***0***  (xfer_width == 1)_1   -                             
+
+----------------Focused Condition View-------------------
+Line       104 Item    1  (total_bits == 32)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+          Input Term   Covered  Reason for no coverage   Hint
+         -----------  --------  -----------------------  --------------
+  (total_bits == 32)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (total_bits == 32)_0  -                             
+  Row   2:    ***0***  (total_bits == 32)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       149 Item    1  ((~tx_empty && cfg_mstr) && (ss_n_drive != 15))
+Condition totals: 2 of 3 input terms covered = 66.66%
+
+          Input Term   Covered  Reason for no coverage   Hint
+         -----------  --------  -----------------------  --------------
+            tx_empty         Y
+            cfg_mstr         N  '_0' not hit             Hit '_0'
+  (ss_n_drive != 15)         Y
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  tx_empty_0            ((ss_n_drive != 15) && cfg_mstr)
+  Row   2:          1  tx_empty_1            -                             
+  Row   3:    ***0***  cfg_mstr_0            ~tx_empty                     
+  Row   4:          1  cfg_mstr_1            ((ss_n_drive != 15) && ~tx_empty)
+  Row   5:          1  (ss_n_drive != 15)_0  (~tx_empty && cfg_mstr)       
+  Row   6:          1  (ss_n_drive != 15)_1  (~tx_empty && cfg_mstr)       
+
+----------------Focused Condition View-------------------
+Line       159 Item    1  (cfg_width == 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+        Input Term   Covered  Reason for no coverage   Hint
+       -----------  --------  -----------------------  --------------
+  (cfg_width == 0)         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (cfg_width == 0)_0    -                             
+  Row   2:          1  (cfg_width == 0)_1    -                             
+
+----------------Focused Condition View-------------------
+Line       160 Item    1  (cfg_width == 1)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+        Input Term   Covered  Reason for no coverage   Hint
+       -----------  --------  -----------------------  --------------
+  (cfg_width == 1)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (cfg_width == 1)_0    -                             
+  Row   2:    ***0***  (cfg_width == 1)_1    -                             
+
+----------------Focused Condition View-------------------
+Line       179 Item    1  (sclk_cnt == (half_period - 1))
+Condition totals: 1 of 1 input term covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       199 Item    1  (bit_cnt == 1)
+Condition totals: 1 of 1 input term covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       206 Item    1  (bit_cnt > 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+     Input Term   Covered  Reason for no coverage   Hint
+    -----------  --------  -----------------------  --------------
+  (bit_cnt > 0)         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (bit_cnt > 0)_0       -                             
+  Row   2:          1  (bit_cnt > 0)_1       -                             
+
+----------------Focused Condition View-------------------
+Line       213 Item    1  ((cpha && leading) && (bit_cnt == width_bits))
+Condition totals: 0 of 3 input terms covered = 0.00%
+
+               Input Term   Covered  Reason for no coverage   Hint
+              -----------  --------  -----------------------  --------------
+                     cpha         N  '_1' not hit             Hit '_1'
+                  leading         N  No hits                  Hit '_0' and '_1'
+  (bit_cnt == width_bits)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target                 Non-masking condition(s)      
+ ---------  ---------  --------------------       -------------------------     
+  Row   1:          1  cpha_0                     -                             
+  Row   2:    ***0***  cpha_1                     ((bit_cnt == width_bits) && leading)
+  Row   3:    ***0***  leading_0                  cpha                          
+  Row   4:    ***0***  leading_1                  ((bit_cnt == width_bits) && cpha)
+  Row   5:    ***0***  (bit_cnt == width_bits)_0  (cpha && leading)             
+  Row   6:    ***0***  (bit_cnt == width_bits)_1  (cpha && leading)             
+
+----------------Focused Condition View-------------------
+Line       225 Item    1  (sclk_cnt == (half_period - 1))
+Condition totals: 1 of 1 input term covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       234 Item    1  (~tx_empty && (cfg_delay != 0))
+Condition totals: 0 of 2 input terms covered = 0.00%
+
+        Input Term   Covered  Reason for no coverage   Hint
+       -----------  --------  -----------------------  --------------
+          tx_empty         N  '_0' not hit             Hit '_0'
+  (cfg_delay != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  tx_empty_0            (cfg_delay != 0)              
+  Row   2:          1  tx_empty_1            -                             
+  Row   3:    ***0***  (cfg_delay != 0)_0    ~tx_empty                     
+  Row   4:    ***0***  (cfg_delay != 0)_1    ~tx_empty                     
+
+----------------Focused Condition View-------------------
+Line       248 Item    1  (sclk_cnt == (half_period - 1))
+Condition totals: 0 of 1 input term covered = 0.00%
+
+                       Input Term   Covered  Reason for no coverage   Hint
+                      -----------  --------  -----------------------  --------------
+  (sclk_cnt == (half_period - 1))         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target                         Non-masking condition(s)      
+ ---------  ---------  --------------------               -------------------------     
+  Row   1:    ***0***  (sclk_cnt == (half_period - 1))_0  -                             
+  Row   2:    ***0***  (sclk_cnt == (half_period - 1))_1  -                             
+
+----------------Focused Condition View-------------------
+Line       250 Item    1  (gap_cnt == 1)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+      Input Term   Covered  Reason for no coverage   Hint
+     -----------  --------  -----------------------  --------------
+  (gap_cnt == 1)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (gap_cnt == 1)_0      -                             
+  Row   2:    ***0***  (gap_cnt == 1)_1      -                             
+
+
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      9         4         5    44.44%
+
+================================Expression Details================================
+
+Expression Coverage for instance /spi_tb_top/dut/u_core --
+
+  File ./golden_rtl/spi_core.sv
+----------------Focused Expression View-----------------
+Line       87 Item    1  (state != S_IDLE)
+Expression totals: 1 of 1 input term covered = 100.00%
+
+-----------Focused Expression View (Bimodal)------------
+Line       89 Item    1  (cfg_loopback? MOSI: MISO)
+Expression totals: 2 of 3 input terms covered = 66.66%
+
+      Input Term   Covered  Reason for no coverage                  Hint
+     -----------  --------  --------------------------------------  --------------
+    cfg_loopback         Y
+            MOSI         Y
+            MISO         N  '_0' hit but '_1' is not hit           Hit '_1' for output ->1
+
+    Rows:   Hits(->0)   Hits(->1)  FEC Target            Non-masking condition(s)           
+
+---------  ----------  ----------  --------------------  -------------------------          
+ Row   1:           1           0  cfg_loopback_0        -                                  
+ Row   2:           1           1  cfg_loopback_1        -                                  
+ Row   3:           1           0  MOSI_0                cfg_loopback                       
+ Row   4:           0           1  MOSI_1                cfg_loopback                       
+ Row   5:           1           0  MISO_0                ~cfg_loopback                      
+ Row   6:           0           0  MISO_1                ~cfg_loopback                      
+
+-----------Focused Expression View (Bimodal)------------
+Line       166 Item    1  (cfg_lsb_first? tx_word[0]: tx_word[cfg_width==0?7:cfg_width==1?15:31])
+Expression totals: 0 of 3 input terms covered = 0.00%
+
+                                    Input Term   Covered  Reason for no coverage                  Hint
+                                   -----------  --------  --------------------------------------  --------------
+                                 cfg_lsb_first         N  '_0' hit but '_1' is not hit           Hit '_1' for output ->0
+                                    tx_word[0]         N  No hits                                Hit '_0' and '_1' for different outputs
+    tx_word[cfg_width==0?7:cfg_width==1?15:31]         N  '_1' hit but '_0' is not hit           Hit '_0' for output ->0
+
+    Rows:   Hits(->0)   Hits(->1)  FEC Target                                      Non-masking condition(s)           
+
+---------  ----------  ----------  --------------------                            -------------------------          
+ Row   1:           0           1  cfg_lsb_first_0                                 -                                  
+ Row   2:           0           0  cfg_lsb_first_1                                 -                                  
+ Row   3:           0           0  tx_word[0]_0                                    cfg_lsb_first                      
+ Row   4:           0           0  tx_word[0]_1                                    cfg_lsb_first                      
+ Row   5:           0           0  tx_word[cfg_width==0?7:cfg_width==1?15:31]_0    ~cfg_lsb_first                     
+ Row   6:           0           1  tx_word[cfg_width==0?7:cfg_width==1?15:31]_1    ~cfg_lsb_first                     
+
+-----------Focused Expression View (Bimodal)------------
+Line       189 Item    1  (~cpha? leading: ~leading)
+Expression totals: 1 of 2 input terms covered = 50.00%
+
+  Input Term   Covered  Reason for no coverage                  Hint
+ -----------  --------  --------------------------------------  --------------
+        cpha         N  '_0' hit but '_1' not hit              Hit '_1' for output ->0 or ->1
+     leading         Y
+
+    Rows:   Hits(->0)   Hits(->1)  FEC Target            Non-masking condition(s)           
+
+---------  ----------  ----------  --------------------  -------------------------          
+ Row   1:           1           1  cpha_0                -                                  
+ Row   2:           0           0  cpha_1                -                                  
+ Row   3:           1           0  leading_0             ~cpha, cpha                        
+ Row   4:           0           1  leading_1             ~cpha, cpha                        
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      77        66        11    85.71%
+
+================================Statement Details================================
+
+Statement Coverage for instance /spi_tb_top/dut/u_core --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ./golden_rtl/spi_core.sv
+    80              1                          2     
+    85              1                          3     
+    87              1                          5     
+    89              1                         12     
+    97              1                    ***0***     
+    99              1                          7     
+    104             1                          1     
+    111             1                        229     
+    113             1                          3     
+    114             1                          3     
+    115             1                          3     
+    116             1                          3     
+    117             1                          3     
+    118             1                          3     
+    119             1                          3     
+    120             1                          3     
+    121             1                          3     
+    122             1                          3     
+    123             1                          3     
+    124             1                          3     
+    125             1                          3     
+    126             1                          3     
+    127             1                          3     
+    128             1                          3     
+    129             1                          3     
+    131             1                        226     
+    132             1                        226     
+    133             1                        226     
+    136             1                          7     
+    137             1                          7     
+    138             1                          7     
+    139             1                          7     
+    140             1                          7     
+    141             1                          7     
+    146             1                        187     
+    151             1                          1     
+    152             1                          1     
+    153             1                          1     
+    154             1                          1     
+    156             1                          1     
+    157             1                          1     
+    159             1                          1     
+    161             1                          1     
+    162             1                          1     
+    166             1                          1     
+    171             1                          1     
+    172             1                          1     
+    173             1                          1     
+    180             1                         15     
+    181             1                         15     
+    182             1                         15     
+    188             1                         15     
+    189             1                         15     
+    190             1                         15     
+    194             1                    ***0***     
+    196             1                          8     
+    200             1                          1     
+    202             1                          8     
+    207             1                          7     
+    214             1                    ***0***     
+    219             1                         15     
+    226             1                          1     
+    227             1                          1     
+    228             1                          1     
+    230             1                          1     
+    231             1                          1     
+    232             1                          1     
+    235             1                    ***0***     
+    236             1                    ***0***     
+    238             1                          1     
+    241             1                          1     
+    247             1                    ***0***     
+    249             1                    ***0***     
+    251             1                    ***0***     
+    253             1                    ***0***     
+    255             1                    ***0***     
+    259             1                    ***0***     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                       1388        94      1294     6.77%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /spi_tb_top/dut/u_core --
+
+                                              Node      1H->0L      0L->1H       0L->Z       Z->0L       1H->Z       Z->H1     ExtMode  "Coverage"
+                                              ---------------------------------------------------------------------------------------------------
+                                              MISO           0           0           0           0           0           0           3        0.00 
+                                           PRESETn           0           1           0           0           0           0           3       16.66 
+                                      bit_cnt[4-5]           0           0           0           0           0           0           3        0.00 
+                                 cfg_clk_div[8-15]           0           0           0           0           0           0           3        0.00 
+                                    cfg_delay[0-7]           0           0           0           0           0           0           3        0.00 
+                                            cfg_en           0           1           0           0           0           0           3       16.66 
+                                      cfg_loopback           0           1           0           0           0           0           3       16.66 
+                                     cfg_lsb_first           0           1           0           0           0           0           3       16.66 
+                                          cfg_mstr           0           1           0           0           0           0           3       16.66 
+                                              cpha           0           0           0           0           0           0           3        0.00 
+                                              cpol           0           0           0           0           0           0           3        0.00 
+                                      gap_cnt[0-8]           0           0           0           0           0           0           3        0.00 
+                                    half_period[0]           1           0           0           0           0           0           3       16.66 
+                                    half_period[1]           0           1           0           0           0           0           3       16.66 
+                                 half_period[2-16]           0           0           0           0           0           0           3        0.00 
+                                   rx_push_data[0]           0           1           0           0           0           0           3       16.66 
+                                   rx_push_data[1]           0           0           0           0           0           0           3        0.00 
+                                   rx_push_data[2]           0           1           0           0           0           0           3       16.66 
+                                 rx_push_data[3-4]           0           0           0           0           0           0           3        0.00 
+                                   rx_push_data[5]           0           1           0           0           0           0           3       16.66 
+                                   rx_push_data[6]           0           0           0           0           0           0           3        0.00 
+                                   rx_push_data[7]           0           1           0           0           0           0           3       16.66 
+                                rx_push_data[8-31]           0           0           0           0           0           0           3        0.00 
+                                    sclk_cnt[1-16]           0           0           0           0           0           0           3        0.00 
+                                          sh_rx[0]           0           1           0           0           0           0           3       16.66 
+                                          sh_rx[1]           0           0           0           0           0           0           3        0.00 
+                                          sh_rx[2]           0           1           0           0           0           0           3       16.66 
+                                        sh_rx[3-4]           0           0           0           0           0           0           3        0.00 
+                                          sh_rx[5]           0           1           0           0           0           0           3       16.66 
+                                          sh_rx[6]           0           0           0           0           0           0           3        0.00 
+                                          sh_rx[7]           0           1           0           0           0           0           3       16.66 
+                                       sh_rx[8-31]           0           0           0           0           0           0           3        0.00 
+                                          sh_tx[0]           0           1           0           0           0           0           3       16.66 
+                                          sh_tx[1]           0           0           0           0           0           0           3        0.00 
+                                          sh_tx[2]           0           1           0           0           0           0           3       16.66 
+                                        sh_tx[3-4]           0           0           0           0           0           0           3        0.00 
+                                          sh_tx[5]           0           1           0           0           0           0           3       16.66 
+                                          sh_tx[6]           0           0           0           0           0           0           3        0.00 
+                                          sh_tx[7]           0           1           0           0           0           0           3       16.66 
+                                       sh_tx[8-31]           0           0           0           0           0           0           3        0.00 
+                                             state               ENUM type       Value       Count 
+                                                                     S_GAP           0        0.00 
+                                        tx_word[1]           0           1           0           0           0           0           3       16.66 
+                                      tx_word[3-4]           0           0           0           0           0           0           3        0.00 
+                                        tx_word[6]           0           0           0           0           0           0           3        0.00 
+                                     tx_word[8-31]           0           0           0           0           0           0           3        0.00 
+                                   width_bits[0-5]           0           0           0           0           0           0           3        0.00 
+                                       xfer_div[0]           0           1           0           0           0           0           3       16.66 
+                                    xfer_div[1-15]           0           0           0           0           0           0           3        0.00 
+                                    xfer_lsb_first           0           0           0           0           0           0           3        0.00 
+                                    xfer_mode[0-1]           0           0           0           0           0           0           3        0.00 
+                                   xfer_width[0-1]           0           0           0           0           0           0           3        0.00 
+
+========
+(n*) - Number was not used in coverage calculations performed by extended toggle algorithms.
+
+Extended Toggle Coverage Calculation Criteria:
+-----------------------------------------------
+	ExtMode 1: 0L->1H & 1H->0L & any one 'Z' transition (to/from 'Z').
+	ExtMode 2: 0L->1H & 1H->0L & one transition to 'Z' & one transition from 'Z'.
+	ExtMode 3: 0L->1H & 1H->0L & all 'Z' transitions.
+========
+
+Total Node Count     =        258 
+Toggled Node Count   =         38 
+Untoggled Node Count =        220 
+
+Toggle Coverage      =       6.77% (94 of 1388 bins)
+
+=================================================================================
+=== Instance: /spi_tb_top/dut
+=== Design Unit: work.spi_master
+=================================================================================
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        888       142       746    15.99%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /spi_tb_top/dut --
+
+                                              Node      1H->0L      0L->1H       0L->Z       Z->0L       1H->Z       Z->H1     ExtMode  "Coverage"
+                                              ---------------------------------------------------------------------------------------------------
+                                               IRQ           0           0           0           0           0           0           3        0.00 
+                                              MISO           0           0           0           0           0           0           3        0.00 
+                                        PADDR[0-1]           0           0           0           0           0           0           3        0.00 
+                                        PADDR[5-7]           0           0           0           0           0           0           3        0.00 
+                                         PRDATA[1]           0           0           0           0           0           0           3        0.00 
+                                         PRDATA[3]           0           0           0           0           0           0           3        0.00 
+                                         PRDATA[6]           0           0           0           0           0           0           3        0.00 
+                                      PRDATA[8-31]           0           0           0           0           0           0           3        0.00 
+                                            PREADY           0           0           0           0           0           0           3        0.00 
+                                           PRESETn           0           1           0           0           0           0           3       16.66 
+                                           PSLVERR           0           0           0           0           0           0           3        0.00 
+                                        PWDATA[14]           0           0           0           0           0           0           3        0.00 
+                                     PWDATA[18-21]           0           0           0           0           0           0           3        0.00 
+                                        PWDATA[25]           0           0           0           0           0           0           3        0.00 
+                                     PWDATA[27-28]           0           0           0           0           0           0           3        0.00 
+                                        PWDATA[30]           0           0           0           0           0           0           3        0.00 
+                                 cfg_clk_div[8-15]           0           0           0           0           0           0           3        0.00 
+                                    cfg_delay[0-7]           0           0           0           0           0           0           3        0.00 
+                                            cfg_en           0           1           0           0           0           0           3       16.66 
+                                      cfg_loopback           0           1           0           0           0           0           3       16.66 
+                                     cfg_lsb_first           0           1           0           0           0           0           3       16.66 
+                                          cfg_mstr           0           1           0           0           0           0           3       16.66 
+                                   rx_push_data[0]           0           1           0           0           0           0           3       16.66 
+                                   rx_push_data[1]           0           0           0           0           0           0           3        0.00 
+                                   rx_push_data[2]           0           1           0           0           0           0           3       16.66 
+                                 rx_push_data[3-4]           0           0           0           0           0           0           3        0.00 
+                                   rx_push_data[5]           0           1           0           0           0           0           3       16.66 
+                                   rx_push_data[6]           0           0           0           0           0           0           3        0.00 
+                                   rx_push_data[7]           0           1           0           0           0           0           3       16.66 
+                                rx_push_data[8-31]           0           0           0           0           0           0           3        0.00 
+                                        tx_word[1]           0           1           0           0           0           0           3       16.66 
+                                      tx_word[3-4]           0           0           0           0           0           0           3        0.00 
+                                        tx_word[6]           0           0           0           0           0           0           3        0.00 
+                                     tx_word[8-31]           0           0           0           0           0           0           3        0.00 
+
+========
+(n*) - Number was not used in coverage calculations performed by extended toggle algorithms.
+
+Extended Toggle Coverage Calculation Criteria:
+-----------------------------------------------
+	ExtMode 1: 0L->1H & 1H->0L & any one 'Z' transition (to/from 'Z').
+	ExtMode 2: 0L->1H & 1H->0L & one transition to 'Z' & one transition from 'Z'.
+	ExtMode 3: 0L->1H & 1H->0L & all 'Z' transitions.
+========
+
+Total Node Count     =        192 
+Toggled Node Count   =         66 
+Untoggled Node Count =        126 
+
+Toggle Coverage      =      15.99% (142 of 888 bins)
+
+=================================================================================
+=== Instance: /spi_pkg
+=== Design Unit: work.spi_pkg
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      6        na        na     4.68%
+        Coverpoints/Crosses         16        na        na        na
+            Covergroup Bins         89         4        85     4.49%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /spi_pkg/spi_coverage/cg_spi_config              28.12%        100          -    Uncovered            
+    covered/total bins:                                     4         33          -                      
+    missing/total bins:                                    29         33          -                      
+    % Hit:                                             12.12%        100          -                      
+    Coverpoint cp_mode                                 25.00%        100          -    Uncovered            
+        covered/total bins:                                 1          4          -                      
+        missing/total bins:                                 3          4          -                      
+        % Hit:                                         25.00%        100          -                      
+        bin mode0                                           1          1          -    Covered              
+        bin mode1                                           0          1          -    ZERO                 
+        bin mode2                                           0          1          -    ZERO                 
+        bin mode3                                           0          1          -    ZERO                 
+    Coverpoint cp_width                                33.33%        100          -    Uncovered            
+        covered/total bins:                                 1          3          -                      
+        missing/total bins:                                 2          3          -                      
+        % Hit:                                         33.33%        100          -                      
+        bin w8                                              1          1          -    Covered              
+        bin w16                                             0          1          -    ZERO                 
+        bin w32                                             0          1          -    ZERO                 
+    Coverpoint cp_order                                50.00%        100          -    Uncovered            
+        covered/total bins:                                 1          2          -                      
+        missing/total bins:                                 1          2          -                      
+        % Hit:                                         50.00%        100          -                      
+        bin msb_first                                       1          1          -    Covered              
+        bin lsb_first                                       0          1          -    ZERO                 
+    Cross cx_all                                        4.16%        100          -    Uncovered            
+        covered/total bins:                                 1         24          -                      
+        missing/total bins:                                23         24          -                      
+        % Hit:                                          4.16%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <mode0,w8,msb_first>                        1          1          -    Covered              
+            bin <mode3,*,*>                                 0          1          6    ZERO                 
+            bin <mode2,*,*>                                 0          1          6    ZERO                 
+            bin <mode1,*,*>                                 0          1          6    ZERO                 
+            bin <*,w32,*>                                   0          1          8    ZERO                 
+            bin <*,w16,*>                                   0          1          8    ZERO                 
+            bin <*,*,lsb_first>                             0          1         12    ZERO                 
+ Covergroup instance \/spi_pkg::spi_coverage::cg_spi_config  
+                                                       28.12%        100          -    Uncovered            
+    covered/total bins:                                     4         33          -                      
+    missing/total bins:                                    29         33          -                      
+    % Hit:                                             12.12%        100          -                      
+    Coverpoint cp_mode                                 25.00%        100          -    Uncovered            
+        covered/total bins:                                 1          4          -                      
+        missing/total bins:                                 3          4          -                      
+        % Hit:                                         25.00%        100          -                      
+        bin mode0                                           1          1          -    Covered              
+        bin mode1                                           0          1          -    ZERO                 
+        bin mode2                                           0          1          -    ZERO                 
+        bin mode3                                           0          1          -    ZERO                 
+    Coverpoint cp_width                                33.33%        100          -    Uncovered            
+        covered/total bins:                                 1          3          -                      
+        missing/total bins:                                 2          3          -                      
+        % Hit:                                         33.33%        100          -                      
+        bin w8                                              1          1          -    Covered              
+        bin w16                                             0          1          -    ZERO                 
+        bin w32                                             0          1          -    ZERO                 
+    Coverpoint cp_order                                50.00%        100          -    Uncovered            
+        covered/total bins:                                 1          2          -                      
+        missing/total bins:                                 1          2          -                      
+        % Hit:                                         50.00%        100          -                      
+        bin msb_first                                       1          1          -    Covered              
+        bin lsb_first                                       0          1          -    ZERO                 
+    Cross cx_all                                        4.16%        100          -    Uncovered            
+        covered/total bins:                                 1         24          -                      
+        missing/total bins:                                23         24          -                      
+        % Hit:                                          4.16%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <mode0,w8,msb_first>                        1          1          -    Covered              
+            bin <mode3,*,*>                                 0          1          6    ZERO                 
+            bin <mode2,*,*>                                 0          1          6    ZERO                 
+            bin <mode1,*,*>                                 0          1          6    ZERO                 
+            bin <*,w32,*>                                   0          1          8    ZERO                 
+            bin <*,w16,*>                                   0          1          8    ZERO                 
+            bin <*,*,lsb_first>                             0          1         12    ZERO                 
+ TYPE /spi_pkg/spi_coverage/cg_apb_regs                 0.00%        100          -    ZERO                 
+    covered/total bins:                                     0         29          -                      
+    missing/total bins:                                    29         29          -                      
+    % Hit:                                              0.00%        100          -                      
+    Coverpoint cp_reg                                   0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          9          -                      
+        missing/total bins:                                 9          9          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin ctrl                                            0          1          -    ZERO                 
+        bin status                                          0          1          -    ZERO                 
+        bin tx_data                                         0          1          -    ZERO                 
+        bin rx_data                                         0          1          -    ZERO                 
+        bin clk_div                                         0          1          -    ZERO                 
+        bin ss_ctrl                                         0          1          -    ZERO                 
+        bin int_en                                          0          1          -    ZERO                 
+        bin int_stat                                        0          1          -    ZERO                 
+        bin delay_r                                         0          1          -    ZERO                 
+    Coverpoint cp_op                                    0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          2          -                      
+        missing/total bins:                                 2          2          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin wr                                              0          1          -    ZERO                 
+        bin rd                                              0          1          -    ZERO                 
+    Cross cx_reg_op                                     0.00%        100          -    ZERO                 
+        covered/total bins:                                 0         18          -                      
+        missing/total bins:                                18         18          -                      
+        % Hit:                                          0.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <*,*>                                       0          1         18    ZERO                 
+ Covergroup instance \/spi_pkg::spi_coverage::cg_apb_regs  
+                                                        0.00%        100          -    ZERO                 
+    covered/total bins:                                     0         29          -                      
+    missing/total bins:                                    29         29          -                      
+    % Hit:                                              0.00%        100          -                      
+    Coverpoint cp_reg                                   0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          9          -                      
+        missing/total bins:                                 9          9          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin ctrl                                            0          1          -    ZERO                 
+        bin status                                          0          1          -    ZERO                 
+        bin tx_data                                         0          1          -    ZERO                 
+        bin rx_data                                         0          1          -    ZERO                 
+        bin clk_div                                         0          1          -    ZERO                 
+        bin ss_ctrl                                         0          1          -    ZERO                 
+        bin int_en                                          0          1          -    ZERO                 
+        bin int_stat                                        0          1          -    ZERO                 
+        bin delay_r                                         0          1          -    ZERO                 
+    Coverpoint cp_op                                    0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          2          -                      
+        missing/total bins:                                 2          2          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin wr                                              0          1          -    ZERO                 
+        bin rd                                              0          1          -    ZERO                 
+    Cross cx_reg_op                                     0.00%        100          -    ZERO                 
+        covered/total bins:                                 0         18          -                      
+        missing/total bins:                                18         18          -                      
+        % Hit:                                          0.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <*,*>                                       0          1         18    ZERO                 
+ TYPE /spi_pkg/spi_coverage/cg_clk_div                  0.00%        100          -    ZERO                 
+    covered/total bins:                                     0          8          -                      
+    missing/total bins:                                     8          8          -                      
+    % Hit:                                              0.00%        100          -                      
+    Coverpoint cp_div                                   0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          8          -                      
+        missing/total bins:                                 8          8          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin div0                                            0          1          -    ZERO                 
+        bin div1                                            0          1          -    ZERO                 
+        bin div2                                            0          1          -    ZERO                 
+        bin div3                                            0          1          -    ZERO                 
+        bin div255                                          0          1          -    ZERO                 
+        bin div65535                                        0          1          -    ZERO                 
+        bin div_mid                                         0          1          -    ZERO                 
+        bin div_large                                       0          1          -    ZERO                 
+ Covergroup instance \/spi_pkg::spi_coverage::cg_clk_div  
+                                                        0.00%        100          -    ZERO                 
+    covered/total bins:                                     0          8          -                      
+    missing/total bins:                                     8          8          -                      
+    % Hit:                                              0.00%        100          -                      
+    Coverpoint cp_div                                   0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          8          -                      
+        missing/total bins:                                 8          8          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin div0                                            0          1          -    ZERO                 
+        bin div1                                            0          1          -    ZERO                 
+        bin div2                                            0          1          -    ZERO                 
+        bin div3                                            0          1          -    ZERO                 
+        bin div255                                          0          1          -    ZERO                 
+        bin div65535                                        0          1          -    ZERO                 
+        bin div_mid                                         0          1          -    ZERO                 
+        bin div_large                                       0          1          -    ZERO                 
+ TYPE /spi_pkg/spi_coverage/cg_delay                    0.00%        100          -    ZERO                 
+    covered/total bins:                                     0          4          -                      
+    missing/total bins:                                     4          4          -                      
+    % Hit:                                              0.00%        100          -                      
+    Coverpoint cp_delay                                 0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          4          -                      
+        missing/total bins:                                 4          4          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin delay0                                          0          1          -    ZERO                 
+        bin delay1                                          0          1          -    ZERO                 
+        bin delay_mid                                       0          1          -    ZERO                 
+        bin delay_large                                     0          1          -    ZERO                 
+ Covergroup instance \/spi_pkg::spi_coverage::cg_delay  
+                                                        0.00%        100          -    ZERO                 
+    covered/total bins:                                     0          4          -                      
+    missing/total bins:                                     4          4          -                      
+    % Hit:                                              0.00%        100          -                      
+    Coverpoint cp_delay                                 0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          4          -                      
+        missing/total bins:                                 4          4          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin delay0                                          0          1          -    ZERO                 
+        bin delay1                                          0          1          -    ZERO                 
+        bin delay_mid                                       0          1          -    ZERO                 
+        bin delay_large                                     0          1          -    ZERO                 
+ TYPE /spi_pkg/spi_coverage/cg_fifo_occ                 0.00%        100          -    ZERO                 
+    covered/total bins:                                     0         10          -                      
+    missing/total bins:                                    10         10          -                      
+    % Hit:                                              0.00%        100          -                      
+    Coverpoint cp_tx                                    0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          5          -                      
+        missing/total bins:                                 5          5          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin empty                                           0          1          -    ZERO                 
+        bin one                                             0          1          -    ZERO                 
+        bin mid                                             0          1          -    ZERO                 
+        bin seven                                           0          1          -    ZERO                 
+        bin full                                            0          1          -    ZERO                 
+    Coverpoint cp_rx                                    0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          5          -                      
+        missing/total bins:                                 5          5          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin empty                                           0          1          -    ZERO                 
+        bin one                                             0          1          -    ZERO                 
+        bin mid                                             0          1          -    ZERO                 
+        bin seven                                           0          1          -    ZERO                 
+        bin full                                            0          1          -    ZERO                 
+ Covergroup instance \/spi_pkg::spi_coverage::cg_fifo_occ  
+                                                        0.00%        100          -    ZERO                 
+    covered/total bins:                                     0         10          -                      
+    missing/total bins:                                    10         10          -                      
+    % Hit:                                              0.00%        100          -                      
+    Coverpoint cp_tx                                    0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          5          -                      
+        missing/total bins:                                 5          5          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin empty                                           0          1          -    ZERO                 
+        bin one                                             0          1          -    ZERO                 
+        bin mid                                             0          1          -    ZERO                 
+        bin seven                                           0          1          -    ZERO                 
+        bin full                                            0          1          -    ZERO                 
+    Coverpoint cp_rx                                    0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          5          -                      
+        missing/total bins:                                 5          5          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin empty                                           0          1          -    ZERO                 
+        bin one                                             0          1          -    ZERO                 
+        bin mid                                             0          1          -    ZERO                 
+        bin seven                                           0          1          -    ZERO                 
+        bin full                                            0          1          -    ZERO                 
+ TYPE /spi_pkg/spi_coverage/cg_interrupts               0.00%        100          -    ZERO                 
+    covered/total bins:                                     0          5          -                      
+    missing/total bins:                                     5          5          -                      
+    % Hit:                                              0.00%        100          -                      
+    Coverpoint cp_tx_empty                              0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          1          -                      
+        missing/total bins:                                 1          1          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin set                                             0          1          -    ZERO                 
+    Coverpoint cp_rx_full                               0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          1          -                      
+        missing/total bins:                                 1          1          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin set                                             0          1          -    ZERO                 
+    Coverpoint cp_tx_ovf                                0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          1          -                      
+        missing/total bins:                                 1          1          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin set                                             0          1          -    ZERO                 
+    Coverpoint cp_rx_ovf                                0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          1          -                      
+        missing/total bins:                                 1          1          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin set                                             0          1          -    ZERO                 
+    Coverpoint cp_txdone                                0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          1          -                      
+        missing/total bins:                                 1          1          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin set                                             0          1          -    ZERO                 
+ Covergroup instance \/spi_pkg::spi_coverage::cg_interrupts  
+                                                        0.00%        100          -    ZERO                 
+    covered/total bins:                                     0          5          -                      
+    missing/total bins:                                     5          5          -                      
+    % Hit:                                              0.00%        100          -                      
+    Coverpoint cp_tx_empty                              0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          1          -                      
+        missing/total bins:                                 1          1          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin set                                             0          1          -    ZERO                 
+    Coverpoint cp_rx_full                               0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          1          -                      
+        missing/total bins:                                 1          1          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin set                                             0          1          -    ZERO                 
+    Coverpoint cp_tx_ovf                                0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          1          -                      
+        missing/total bins:                                 1          1          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin set                                             0          1          -    ZERO                 
+    Coverpoint cp_rx_ovf                                0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          1          -                      
+        missing/total bins:                                 1          1          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin set                                             0          1          -    ZERO                 
+    Coverpoint cp_txdone                                0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          1          -                      
+        missing/total bins:                                 1          1          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin set                                             0          1          -    ZERO                 
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /spi_pkg/spi_coverage/cg_spi_config              28.12%        100          -    Uncovered            
+    covered/total bins:                                     4         33          -                      
+    missing/total bins:                                    29         33          -                      
+    % Hit:                                             12.12%        100          -                      
+    Coverpoint cp_mode                                 25.00%        100          -    Uncovered            
+        covered/total bins:                                 1          4          -                      
+        missing/total bins:                                 3          4          -                      
+        % Hit:                                         25.00%        100          -                      
+        bin mode0                                           1          1          -    Covered              
+        bin mode1                                           0          1          -    ZERO                 
+        bin mode2                                           0          1          -    ZERO                 
+        bin mode3                                           0          1          -    ZERO                 
+    Coverpoint cp_width                                33.33%        100          -    Uncovered            
+        covered/total bins:                                 1          3          -                      
+        missing/total bins:                                 2          3          -                      
+        % Hit:                                         33.33%        100          -                      
+        bin w8                                              1          1          -    Covered              
+        bin w16                                             0          1          -    ZERO                 
+        bin w32                                             0          1          -    ZERO                 
+    Coverpoint cp_order                                50.00%        100          -    Uncovered            
+        covered/total bins:                                 1          2          -                      
+        missing/total bins:                                 1          2          -                      
+        % Hit:                                         50.00%        100          -                      
+        bin msb_first                                       1          1          -    Covered              
+        bin lsb_first                                       0          1          -    ZERO                 
+    Cross cx_all                                        4.16%        100          -    Uncovered            
+        covered/total bins:                                 1         24          -                      
+        missing/total bins:                                23         24          -                      
+        % Hit:                                          4.16%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <mode0,w8,msb_first>                        1          1          -    Covered              
+            bin <mode3,*,*>                                 0          1          6    ZERO                 
+            bin <mode2,*,*>                                 0          1          6    ZERO                 
+            bin <mode1,*,*>                                 0          1          6    ZERO                 
+            bin <*,w32,*>                                   0          1          8    ZERO                 
+            bin <*,w16,*>                                   0          1          8    ZERO                 
+            bin <*,*,lsb_first>                             0          1         12    ZERO                 
+ Covergroup instance \/spi_pkg::spi_coverage::cg_spi_config  
+                                                       28.12%        100          -    Uncovered            
+    covered/total bins:                                     4         33          -                      
+    missing/total bins:                                    29         33          -                      
+    % Hit:                                             12.12%        100          -                      
+    Coverpoint cp_mode                                 25.00%        100          -    Uncovered            
+        covered/total bins:                                 1          4          -                      
+        missing/total bins:                                 3          4          -                      
+        % Hit:                                         25.00%        100          -                      
+        bin mode0                                           1          1          -    Covered              
+        bin mode1                                           0          1          -    ZERO                 
+        bin mode2                                           0          1          -    ZERO                 
+        bin mode3                                           0          1          -    ZERO                 
+    Coverpoint cp_width                                33.33%        100          -    Uncovered            
+        covered/total bins:                                 1          3          -                      
+        missing/total bins:                                 2          3          -                      
+        % Hit:                                         33.33%        100          -                      
+        bin w8                                              1          1          -    Covered              
+        bin w16                                             0          1          -    ZERO                 
+        bin w32                                             0          1          -    ZERO                 
+    Coverpoint cp_order                                50.00%        100          -    Uncovered            
+        covered/total bins:                                 1          2          -                      
+        missing/total bins:                                 1          2          -                      
+        % Hit:                                         50.00%        100          -                      
+        bin msb_first                                       1          1          -    Covered              
+        bin lsb_first                                       0          1          -    ZERO                 
+    Cross cx_all                                        4.16%        100          -    Uncovered            
+        covered/total bins:                                 1         24          -                      
+        missing/total bins:                                23         24          -                      
+        % Hit:                                          4.16%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <mode0,w8,msb_first>                        1          1          -    Covered              
+            bin <mode3,*,*>                                 0          1          6    ZERO                 
+            bin <mode2,*,*>                                 0          1          6    ZERO                 
+            bin <mode1,*,*>                                 0          1          6    ZERO                 
+            bin <*,w32,*>                                   0          1          8    ZERO                 
+            bin <*,w16,*>                                   0          1          8    ZERO                 
+            bin <*,*,lsb_first>                             0          1         12    ZERO                 
+ TYPE /spi_pkg/spi_coverage/cg_apb_regs                 0.00%        100          -    ZERO                 
+    covered/total bins:                                     0         29          -                      
+    missing/total bins:                                    29         29          -                      
+    % Hit:                                              0.00%        100          -                      
+    Coverpoint cp_reg                                   0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          9          -                      
+        missing/total bins:                                 9          9          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin ctrl                                            0          1          -    ZERO                 
+        bin status                                          0          1          -    ZERO                 
+        bin tx_data                                         0          1          -    ZERO                 
+        bin rx_data                                         0          1          -    ZERO                 
+        bin clk_div                                         0          1          -    ZERO                 
+        bin ss_ctrl                                         0          1          -    ZERO                 
+        bin int_en                                          0          1          -    ZERO                 
+        bin int_stat                                        0          1          -    ZERO                 
+        bin delay_r                                         0          1          -    ZERO                 
+    Coverpoint cp_op                                    0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          2          -                      
+        missing/total bins:                                 2          2          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin wr                                              0          1          -    ZERO                 
+        bin rd                                              0          1          -    ZERO                 
+    Cross cx_reg_op                                     0.00%        100          -    ZERO                 
+        covered/total bins:                                 0         18          -                      
+        missing/total bins:                                18         18          -                      
+        % Hit:                                          0.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <*,*>                                       0          1         18    ZERO                 
+ Covergroup instance \/spi_pkg::spi_coverage::cg_apb_regs  
+                                                        0.00%        100          -    ZERO                 
+    covered/total bins:                                     0         29          -                      
+    missing/total bins:                                    29         29          -                      
+    % Hit:                                              0.00%        100          -                      
+    Coverpoint cp_reg                                   0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          9          -                      
+        missing/total bins:                                 9          9          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin ctrl                                            0          1          -    ZERO                 
+        bin status                                          0          1          -    ZERO                 
+        bin tx_data                                         0          1          -    ZERO                 
+        bin rx_data                                         0          1          -    ZERO                 
+        bin clk_div                                         0          1          -    ZERO                 
+        bin ss_ctrl                                         0          1          -    ZERO                 
+        bin int_en                                          0          1          -    ZERO                 
+        bin int_stat                                        0          1          -    ZERO                 
+        bin delay_r                                         0          1          -    ZERO                 
+    Coverpoint cp_op                                    0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          2          -                      
+        missing/total bins:                                 2          2          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin wr                                              0          1          -    ZERO                 
+        bin rd                                              0          1          -    ZERO                 
+    Cross cx_reg_op                                     0.00%        100          -    ZERO                 
+        covered/total bins:                                 0         18          -                      
+        missing/total bins:                                18         18          -                      
+        % Hit:                                          0.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <*,*>                                       0          1         18    ZERO                 
+ TYPE /spi_pkg/spi_coverage/cg_clk_div                  0.00%        100          -    ZERO                 
+    covered/total bins:                                     0          8          -                      
+    missing/total bins:                                     8          8          -                      
+    % Hit:                                              0.00%        100          -                      
+    Coverpoint cp_div                                   0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          8          -                      
+        missing/total bins:                                 8          8          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin div0                                            0          1          -    ZERO                 
+        bin div1                                            0          1          -    ZERO                 
+        bin div2                                            0          1          -    ZERO                 
+        bin div3                                            0          1          -    ZERO                 
+        bin div255                                          0          1          -    ZERO                 
+        bin div65535                                        0          1          -    ZERO                 
+        bin div_mid                                         0          1          -    ZERO                 
+        bin div_large                                       0          1          -    ZERO                 
+ Covergroup instance \/spi_pkg::spi_coverage::cg_clk_div  
+                                                        0.00%        100          -    ZERO                 
+    covered/total bins:                                     0          8          -                      
+    missing/total bins:                                     8          8          -                      
+    % Hit:                                              0.00%        100          -                      
+    Coverpoint cp_div                                   0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          8          -                      
+        missing/total bins:                                 8          8          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin div0                                            0          1          -    ZERO                 
+        bin div1                                            0          1          -    ZERO                 
+        bin div2                                            0          1          -    ZERO                 
+        bin div3                                            0          1          -    ZERO                 
+        bin div255                                          0          1          -    ZERO                 
+        bin div65535                                        0          1          -    ZERO                 
+        bin div_mid                                         0          1          -    ZERO                 
+        bin div_large                                       0          1          -    ZERO                 
+ TYPE /spi_pkg/spi_coverage/cg_delay                    0.00%        100          -    ZERO                 
+    covered/total bins:                                     0          4          -                      
+    missing/total bins:                                     4          4          -                      
+    % Hit:                                              0.00%        100          -                      
+    Coverpoint cp_delay                                 0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          4          -                      
+        missing/total bins:                                 4          4          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin delay0                                          0          1          -    ZERO                 
+        bin delay1                                          0          1          -    ZERO                 
+        bin delay_mid                                       0          1          -    ZERO                 
+        bin delay_large                                     0          1          -    ZERO                 
+ Covergroup instance \/spi_pkg::spi_coverage::cg_delay  
+                                                        0.00%        100          -    ZERO                 
+    covered/total bins:                                     0          4          -                      
+    missing/total bins:                                     4          4          -                      
+    % Hit:                                              0.00%        100          -                      
+    Coverpoint cp_delay                                 0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          4          -                      
+        missing/total bins:                                 4          4          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin delay0                                          0          1          -    ZERO                 
+        bin delay1                                          0          1          -    ZERO                 
+        bin delay_mid                                       0          1          -    ZERO                 
+        bin delay_large                                     0          1          -    ZERO                 
+ TYPE /spi_pkg/spi_coverage/cg_fifo_occ                 0.00%        100          -    ZERO                 
+    covered/total bins:                                     0         10          -                      
+    missing/total bins:                                    10         10          -                      
+    % Hit:                                              0.00%        100          -                      
+    Coverpoint cp_tx                                    0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          5          -                      
+        missing/total bins:                                 5          5          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin empty                                           0          1          -    ZERO                 
+        bin one                                             0          1          -    ZERO                 
+        bin mid                                             0          1          -    ZERO                 
+        bin seven                                           0          1          -    ZERO                 
+        bin full                                            0          1          -    ZERO                 
+    Coverpoint cp_rx                                    0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          5          -                      
+        missing/total bins:                                 5          5          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin empty                                           0          1          -    ZERO                 
+        bin one                                             0          1          -    ZERO                 
+        bin mid                                             0          1          -    ZERO                 
+        bin seven                                           0          1          -    ZERO                 
+        bin full                                            0          1          -    ZERO                 
+ Covergroup instance \/spi_pkg::spi_coverage::cg_fifo_occ  
+                                                        0.00%        100          -    ZERO                 
+    covered/total bins:                                     0         10          -                      
+    missing/total bins:                                    10         10          -                      
+    % Hit:                                              0.00%        100          -                      
+    Coverpoint cp_tx                                    0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          5          -                      
+        missing/total bins:                                 5          5          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin empty                                           0          1          -    ZERO                 
+        bin one                                             0          1          -    ZERO                 
+        bin mid                                             0          1          -    ZERO                 
+        bin seven                                           0          1          -    ZERO                 
+        bin full                                            0          1          -    ZERO                 
+    Coverpoint cp_rx                                    0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          5          -                      
+        missing/total bins:                                 5          5          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin empty                                           0          1          -    ZERO                 
+        bin one                                             0          1          -    ZERO                 
+        bin mid                                             0          1          -    ZERO                 
+        bin seven                                           0          1          -    ZERO                 
+        bin full                                            0          1          -    ZERO                 
+ TYPE /spi_pkg/spi_coverage/cg_interrupts               0.00%        100          -    ZERO                 
+    covered/total bins:                                     0          5          -                      
+    missing/total bins:                                     5          5          -                      
+    % Hit:                                              0.00%        100          -                      
+    Coverpoint cp_tx_empty                              0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          1          -                      
+        missing/total bins:                                 1          1          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin set                                             0          1          -    ZERO                 
+    Coverpoint cp_rx_full                               0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          1          -                      
+        missing/total bins:                                 1          1          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin set                                             0          1          -    ZERO                 
+    Coverpoint cp_tx_ovf                                0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          1          -                      
+        missing/total bins:                                 1          1          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin set                                             0          1          -    ZERO                 
+    Coverpoint cp_rx_ovf                                0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          1          -                      
+        missing/total bins:                                 1          1          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin set                                             0          1          -    ZERO                 
+    Coverpoint cp_txdone                                0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          1          -                      
+        missing/total bins:                                 1          1          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin set                                             0          1          -    ZERO                 
+ Covergroup instance \/spi_pkg::spi_coverage::cg_interrupts  
+                                                        0.00%        100          -    ZERO                 
+    covered/total bins:                                     0          5          -                      
+    missing/total bins:                                     5          5          -                      
+    % Hit:                                              0.00%        100          -                      
+    Coverpoint cp_tx_empty                              0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          1          -                      
+        missing/total bins:                                 1          1          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin set                                             0          1          -    ZERO                 
+    Coverpoint cp_rx_full                               0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          1          -                      
+        missing/total bins:                                 1          1          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin set                                             0          1          -    ZERO                 
+    Coverpoint cp_tx_ovf                                0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          1          -                      
+        missing/total bins:                                 1          1          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin set                                             0          1          -    ZERO                 
+    Coverpoint cp_rx_ovf                                0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          1          -                      
+        missing/total bins:                                 1          1          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin set                                             0          1          -    ZERO                 
+    Coverpoint cp_txdone                                0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          1          -                      
+        missing/total bins:                                 1          1          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin set                                             0          1          -    ZERO                 
+
+TOTAL COVERGROUP COVERAGE: 4.68%  COVERGROUP TYPES: 6
+
+Total Coverage By Instance (filtered view): 41.30%
+
