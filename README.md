@@ -129,15 +129,7 @@ Verification-of-a-Configurable-APB-Slave-SPI-Master-IP-using-UVM-and-RAL/
 2. Run a test with `+UVM_TESTNAME=<test_name>`.
 3. To collect coverage, save the database per test (`.ucdb`), then merge the databases into `coverage/merged.ucdb` and generate the report.
 
-## 6. Coverage Results
 
-Coverage databases and reports for each test, and a merged report, are in `coverage/`.
-
-| Metric | Result |
-|--------|--------|
-| Tests passed | _add here_ |
-| Code coverage | _add here_ |
-| Functional coverage | _add here_ |
 
 ## 7. Tools
 
